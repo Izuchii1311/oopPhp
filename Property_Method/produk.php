@@ -45,16 +45,30 @@
     // // Menampilkan penulis dan penerbit
     // echo $produk3->getLabel();
 
+    $produk1 = new Produk();
+    $produk1->judul = "Kimetsu no Yaiba";
+    $produk1->penulis = "Koyouharu Gotouge";
+    $produk1->penerbit = "Ufotable";
+    $produk1->harga = "$10.000";
 
-    $produk4 = new Produk();
-    $produk4->judul = "Genshin Impact";
-    $produk4->penulis = "Maaya Uchida";
-    $produk4->penerbit = "Mihoyo";
-    $produk4->harga = "$1.200.000";
-
-    echo "Game Terbaik : $produk4->judul<br>";
-    echo $produk4->getLabel();
+    echo "Anime 2023 : " . $produk1->judul;
     echo "<br>";
-    echo "Harga Game Per-tahun : $produk4->harga";
+    echo $produk1->getLabel();
+    echo "<br>";
+    echo "Harga per/eps : " . $produk1->harga;
+
+    echo "<br><br>";
+
+    $produk2 = new Produk();
+    $produk2->judul = "Genshin Impact";
+    $produk2->penulis = "Maaya Uchida";
+    $produk2->penerbit = "Mihoyo";
+    $produk2->harga = "$10.000";
+
+    echo "Game 2023 : " . $produk2->judul;
+    echo "<br>";
+    echo $produk2->getLabel();
+    echo "<br>";
+    echo "Harga per/update : " . $produk2->harga;
 
 ?>

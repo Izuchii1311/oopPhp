@@ -26,3 +26,12 @@ Object Oriented Programming (Program Besar)
         4. Skalabilitas & ekstensibilitas
         5. Kemudahan Pengelolaan & Kolaborasi
         6. Digunakan oleh framework
+
+
+Class sebagai Template (misalkan : denah / blueprint)
+Object (misalkan: mobil)
+Property (misalkan: ban, kaca, stir, kunci, warna ...)
+Method (misalkan: maju, mundur, belok, atur kecepatan ...)
+
+Constructor [Method khusus] = method yg otomatis dijalankan ketika sebuah kelas dibuat sebuah objectnya.
+biasanya digunakan untuk menyimpan koneksi ke database 
