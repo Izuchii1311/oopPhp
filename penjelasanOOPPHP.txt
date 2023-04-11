@@ -1,0 +1,28 @@
+OOP PHP
+
+Object Oriented Programming = gaya pemrograman / paradigma pemrograman (cara menuliskan code)
+
+Procedural Programming (Program Kecil)
+    > Instruksi dilakukan langkah demi langkah
+    > Memecah program menjadi bagian bagian kecil (function)
+    > Linear (code dibaca dari atas ke bawah)
+
+    Kelebihan : 
+        1. To the point
+        2. Kemudahan untuk dibaca oleh compiler
+        3. Mudah ditelusuri (error)
+        4. Lebih sedikit memori penggunaan
+
+Object Oriented Programming (Program Besar)
+    > Menyusun code kedalam object
+    > Object adalah unit dasar pembentuk dari programnya
+    > Object menyimpan data dan prilaku (cenderung tidak memiliki variabel dan function lebih ke property & method)
+    > Object bisa saling berinteraksi
+
+    Kelebihan : 
+        1. Representasi dunia nyata
+        2. Enkapsulasi (data menjadi aman dan tidak bisa di proses oleh bagian lain) & Abstraksi data
+        3. Reusibility (menggunakan ulang bagian yang telah dibuat)
+        4. Skalabilitas & ekstensibilitas
+        5. Kemudahan Pengelolaan & Kolaborasi
+        6. Digunakan oleh framework
