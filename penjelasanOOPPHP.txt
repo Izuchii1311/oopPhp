@@ -42,3 +42,6 @@ Inheritance 1 [Pewarisan]
     > Konsep yang akan menciptakan hirarki antar class (Parent & Child).
     > Child class mewarisi semua property dan method milik Parentnya. (yang visible)
     > Child class memperluas (extends) fungsionalitas dari parentnya.
+
+Inheritance 2 [Pewarisan]
+    > akan mencari Constructor di childnya jika tidak ada maka akan mencari ke parentnya
