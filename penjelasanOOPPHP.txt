@@ -35,3 +35,5 @@ Method (misalkan: maju, mundur, belok, atur kecepatan ...)
 
 Constructor [Method khusus] = method yg otomatis dijalankan ketika sebuah kelas dibuat sebuah objectnya.
 biasanya digunakan untuk menyimpan koneksi ke database 
+
+Object Type 
