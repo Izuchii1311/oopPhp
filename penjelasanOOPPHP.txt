@@ -36,4 +36,9 @@ Method (misalkan: maju, mundur, belok, atur kecepatan ...)
 Constructor [Method khusus] = method yg otomatis dijalankan ketika sebuah kelas dibuat sebuah objectnya.
 biasanya digunakan untuk menyimpan koneksi ke database 
 
-Object Type 
+Object Type merepresentasikan object dari sebuah class.
+
+Inheritance 1 [Pewarisan] 
+    > Konsep yang akan menciptakan hirarki antar class (Parent & Child).
+    > Child class mewarisi semua property dan method milik Parentnya. (yang visible)
+    > Child class memperluas (extends) fungsionalitas dari parentnya.
