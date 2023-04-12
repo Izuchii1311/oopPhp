@@ -108,3 +108,17 @@ Kenapa menggunakan class Abctract?
     > salah satu cara menerapkan Polimorphism
     > sentralisasi logic
     > mempermudah pengerjaan tim.
+
+
+Interface
+    > kelas abstract yang sama sekali tidak memiliki implementasi.
+    > Murni merupakan template untuk kelas turunannya (Semuanya hanya definisinya, sisanya di class turunannya).
+    > tidak boleh memiliki property, hanya deklarasi methodnya saja.
+    > semua method harus dideklarasikan dengan visibility public.
+    > boleh mendeklarasikan __construct di dalam interface untuk mewajibkan kelas turunannya mempunyai __construct juga.
+    > satu class boleh mengimplementasikan banyak interface
+
+    > dengan menggunakan type-hinting dapat melakukan 'denpedency injection'
+            type-hinting = sebuah object dijadikan seuah parameter.
+            denpedency injection = memaksakan sebuah method untuk menerima parameternya adalah object.
+    > pada akhirnya akan mencapai Polimorphism.
