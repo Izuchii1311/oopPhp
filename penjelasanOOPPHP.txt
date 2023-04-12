@@ -122,3 +122,6 @@ Interface
             type-hinting = sebuah object dijadikan seuah parameter.
             denpedency injection = memaksakan sebuah method untuk menerima parameternya adalah object.
     > pada akhirnya akan mencapai Polimorphism.
+
+Autoloading, memanggil class (file) tanpa menggunakan require.
+1 class biasanya ditulis dalam 1buah file.
