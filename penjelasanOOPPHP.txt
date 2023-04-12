@@ -58,3 +58,10 @@ Visibility (Akses modifire)
         1. Hanya memperlihatkan aspek dari class yang dibutuhkan 'client'
         2. Menentukan kebutuhan yang jelas untuk object.
         3. Memberikan kendali pada code untuk menghindari 'bug'.
+
+Setter & Getter erat kaitannya dengan visibility karena kita menggunakan setter dan getter ini untuk menghindari ketika kita membuat sebuah poperty dengan visibility public. Karena sebaiknya kita tidak membiarkan bagian dari luar class, bisa mengakses property secara langsung ( maka diubah lah visibilitynya ke protected atau private ).
+
+kenapa harus membuat parentnya memiliki property yg private dan harus membuat method ulang?
+karena agar lebih aman dan bisa saja di dalam method yg memanggil property private kita dapat menambahkan validasi misalnya
+
+Di dalam PHP dapat menggunakan magic method __set() dan __get()
