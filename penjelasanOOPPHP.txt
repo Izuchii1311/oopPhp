@@ -47,3 +47,14 @@ Inheritance 2 [Pewarisan]
     > akan mencari Constructor di childnya jika tidak ada maka akan mencari ke parentnya
 
 Overriding = membuat method dikelas child dengan nama yang sama denga parentnya (menimpa method parentnya). 
+
+Visibility (Akses modifire)
+    > Konsep untuk mengatur akses dari property dan method dari sebuah object.
+    > public, property dan methodnya dapat digunakan dimana saja, bahkan diluar class.
+    > protected, hanya bisa digunakan untuk class beserta turunannya.
+    > private, hanya dapat digunakan disebuah class tertentu saja.
+
+    Kenapa menggunakan Visibility?
+        1. Hanya memperlihatkan aspek dari class yang dibutuhkan 'client'
+        2. Menentukan kebutuhan yang jelas untuk object.
+        3. Memberikan kendali pada code untuk menghindari 'bug'.
