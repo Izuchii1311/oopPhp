@@ -65,3 +65,15 @@ kenapa harus membuat parentnya memiliki property yg private dan harus membuat me
 karena agar lebih aman dan bisa saja di dalam method yg memanggil property private kita dapat menambahkan validasi misalnya
 
 Di dalam PHP dapat menggunakan magic method __set() dan __get()
+
+Static Keyword, dapat membuat static property dan static method.
+Untuk apa?
+    = supaya kita dapat akses pada konteks class.
+Dan Kapan dapat digunakan?
+    > property dan methodnya terikat dengan class bukan object 
+    > nilai static akan tetap meskipun object di instansiasi berulang kali
+    > membuat code menjadi Procedural
+    > biasanya digunakan untuk membuat function bantuan atau helper
+    > biasa digunakan di class class utility pada framework
+
+$this-> berlaku untuk object yang sudah di instansiasi
