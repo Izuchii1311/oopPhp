@@ -125,3 +125,14 @@ Interface
 
 Autoloading, memanggil class (file) tanpa menggunakan require.
 1 class biasanya ditulis dalam 1buah file.
+
+
+NameSpace, adalah sebuah cara untuk mengelompokkan program ke dalam sebuah package tersendiri. (Enkapsulasi)
+Kenapa harus dikelompokkan?
+    karena PHP tidak mengijinkan kita untuk memiliki 2 class dengan nama yang sama.
+    sebaiknya membuat namespace di setiap class yang dibuat
+
+    aturan menulis namespace
+    namespace Vendor\NameSpace\SubNamespace;
+
+    *Vendor (pembuat atau namaaplikasinya)
