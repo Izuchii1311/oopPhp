@@ -45,3 +45,5 @@ Inheritance 1 [Pewarisan]
 
 Inheritance 2 [Pewarisan]
     > akan mencari Constructor di childnya jika tidak ada maka akan mencari ke parentnya
+
+Overriding = membuat method dikelas child dengan nama yang sama denga parentnya (menimpa method parentnya). 
