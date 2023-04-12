@@ -77,3 +77,15 @@ Dan Kapan dapat digunakan?
     > biasa digunakan di class class utility pada framework
 
 $this-> berlaku untuk object yang sudah di instansiasi
+
+
+Constant, sebuah indentifier unutk menyimpan nilai.
+variabel juga untuk menyimpan nilai.
+
+Bedanya adalah Constant nilainya tidak dapat berubah.
+define() atau const
+
+Contant biasanya ditulis dalam huruf besar semua sebagai pembeda dengan variabel.
+
+Magic Constant 
+__LINE__ , __FILE__ , __DIR__ , __FUNCTION__ , __CLASS__ , __TRAIT__ , __METHOD__ , __NAMESPACE__
