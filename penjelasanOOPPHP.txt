@@ -89,3 +89,22 @@ Contant biasanya ditulis dalam huruf besar semua sebagai pembeda dengan variabel
 
 Magic Constant 
 __LINE__ , __FILE__ , __DIR__ , __FUNCTION__ , __CLASS__ , __TRAIT__ , __METHOD__ , __NAMESPACE__
+
+
+Abstract Class
+    > sebuah class yg tidak dapat di instansiasi (menginstansiasi class turunannya).
+    > mengdefinisikan interface untuk kelas yang lain yg menjadi turunannya.
+    > berperan sebagai 'kerangka dasar' untuk class turunannya.
+    > memiliki minimal 1 method Abstract.
+    > digunakan dalam 'pewarisan/Inheritance' untuk memaksakan implementasi method abstract yang sama untuk semua kelas turunannya.
+
+    > semua class turunannya, harus mengimplementasikan method abstract yang ada di class abstract.
+    > class abstract boleh memiliki property/method reguler.
+    > class abstract boleh memiliki property/static method.
+
+Kenapa menggunakan class Abctract?
+    > merepresentasikan ide atau konsep dasar.
+    > "Composition over Inheritance"
+    > salah satu cara menerapkan Polimorphism
+    > sentralisasi logic
+    > mempermudah pengerjaan tim.
