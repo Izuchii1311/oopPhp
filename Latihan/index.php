@@ -2,6 +2,16 @@
 
 require_once "App/init.php";
 
+use App\Buah\User as BuahUser;
+use App\Service\User as ServiceUser;
+
+// Sample namespace
+new BuahUser();
+echo "<br>";
+new ServiceUser();
+
+echo "<hr>";
+
 // Inisiasi Object
 $buah1 = new Buah("Semangka", "Hijau", "Lonjong", "Manis", 15000, "Matang", "Dimakan Langsung");
 $buah2 = new Sayur("Tomat", "Orange", "Bulat", "Asam", 7000, "Mentah", "Dimasak");
