@@ -89,5 +89,8 @@
     $produk2->setDiskon(75);    
     echo $produk2->getHarga();
 
+    $cetakInfo = new CetakInfoProduk();
+    echo $cetakInfo->cetak($produk1);
+
 
 ?>

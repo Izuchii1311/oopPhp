@@ -66,5 +66,11 @@
     echo "<br>";
     echo $produk2->getInfoProduk();
 
+    echo "<hr>";
+    echo "<br>";
+    // berikut ini adalah penerapan dari inheritance dengan visibility public yang membuat user dapat merubah harga dari suatu barang
+    $produk1->harga = 20;
+    echo $produk1->harga;
+
 
 ?>
